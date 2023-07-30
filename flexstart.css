@@ -1,0 +1,1181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 90px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 15px;
+}
+
+.navbar .home {
+    color: #4154f1;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    transition: all .5s ease;
+}
+
+.navbar a:hover {
+    color: #4154f1;
+}
+
+.navbar span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #012970;
+}
+
+.navbar li:first-child {
+    margin: auto;
+}
+
+.navbar .btn {
+    border: 1px solid #012970;
+    border-radius: 5px;
+    background-color: #012970;
+    color: #fff;
+    margin-left: 25px;
+    padding: 8px 15px;
+    transition: all .4s ease;
+}
+
+.navbar .btn:hover {
+    border: 1px solid #4154f1;
+    border-radius: 5px;
+    background-color: #4154f1;
+    color: #fff;
+}
+
+/* end navbar */
+
+#home .contaner {
+    background-image: url(https://bootstrapmade.com/demo/templates/FlexStart/assets/img/hero-bg.png);
+    width: 100%;
+    height: 65vh;
+    background-attachment: fixed;
+}
+
+#home .contaner .parent {
+    display: flex;
+    margin-top: 50px;
+}
+
+#home .contaner .parent .child {
+    width: calc(100%/2);
+    margin-left: 130px;
+}
+
+#home .contaner .parent .child h1 {
+    font-size: 48px; 
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    color: #012970;
+}
+
+#home .contaner .parent .child h2 {
+    color: #444444;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#home .contaner .parent .child a {
+    text-decoration: none;
+    border: 1px solid #4154f1;
+    border-radius: 5px;
+    background-color: #4154f1;
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 225, .2);
+    color: #fff;
+    padding: 15px 40px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*end home */
+
+#first .contaner .parent {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+#first .contaner .parent .child .child1 {
+    background-color: #f6f9ff;
+    padding: 45px;
+    margin-top: 50px;
+}
+
+#first .contaner .parent .child .child1 h3 {
+    color: #4154f1;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 25px;
+}
+
+#first .contaner .parent .child .child1 h2 {
+    color: #012970;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 25px;
+}
+
+#first .contaner .parent .child .child1 p {
+    color: #444444;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 25px;
+}
+
+#first .contaner .parent .child .child1 a {
+    text-decoration: none;
+    border: 1px solid #4154f1;
+    border-radius: 5px;
+    background-color: #4154f1;
+    color: #fff;
+    padding: 10px 35px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#first .contaner .parent .child img {
+    width: 648px;
+    height: 486px;
+    margin-right: 45px;
+}
+
+/* end first */
+
+#values .contaner h2, 
+#feat .contaner h2,
+#service .contaner h2,
+#pric .contaner h2,
+#portfolio .contaner h2,
+#team .contaner h2,
+#blog .contaner h2,
+#contact .contaner h2 {
+    color: #4154f1;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+#values .contaner p,
+#feat .contaner p, 
+#one .contaner h3,
+#service .contaner p,
+#pric .contaner p,
+#portfolio .contaner p,
+#team .contaner p,
+#blog .contaner p,
+#contact .contaner p {
+    font-size: 38px;
+    font-weight: 600;
+    color: #012970;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+#values .contaner .parent {
+    display: flex;
+    margin-bottom: 50px;
+    width: 1174px;
+    margin-left: 50px;
+}
+
+#values .contaner .parent .child {
+    width: calc(100%/3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    margin-left: 50px;
+    margin-top: 25px;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    transition: all .2s ease;
+}
+
+#values .contaner .parent .child img {
+    width: 392px;
+    height: 296px;
+    padding: 20px 40px;
+    transition: all .3s ease;
+}
+
+#values .contaner .parent .child h3 {
+    color: #012970;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#values .contaner .parent .child p {
+    color: #444444;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+#values .contaner .parent .child:hover {
+    transform: scale(1.012);
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+}
+
+#values .contaner .parent .child img:hover {
+    transform: scale(0.9);
+    padding: 30px 45px;
+}
+
+/* end values */
+
+#none .contaner .parent {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+
+#none .contaner .parent .child {
+    width: calc(100%/3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+}
+
+#none .contaner .parent .child span {
+    color: #012970;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+#none .contaner .parent .child p {
+    color: #444444;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 50px;
+}
+
+#none .contaner .parent .child i {
+    font-size: 45px;
+    margin: 5px;
+}
+
+/* end none */
+
+#feat .contaner {
+    margin-top: 110px;
+}
+
+#feat .contaner .parent {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#feat .contaner .parent {
+    display: flex;
+    margin-left: 70px;
+}
+
+#feat .contaner .parent .child {
+    width: calc(100%2);
+    margin-top: 45px;
+}
+
+#feat .contaner .parent .child img {
+    width: 636px;
+    height: 404px;
+}
+
+#feat .contaner .parent .child .child1 {
+    display: flex;
+}
+
+#feat .contaner .parent .child .child1 .text {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    margin: 20px;
+    padding: 25px;
+    width: 306px;
+    height: 80px;
+}
+
+#feat .contaner .parent .child .child1 .text span{
+    color: #012970;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+#feat .contaner .parent .child .child1 .text i {
+    font-size: 22px;
+    margin-right: 3px;
+    color: #4154f1;
+    transition: all .3s ease;
+}
+
+
+#feat .contaner .parent .child .child1 .text i:hover {
+    color: #012970;
+}
+
+/* end feat */ 
+
+#about .contaner .parent {
+    display: flex;
+    margin: 90px 0;
+    margin-left: 70px;
+}
+
+#about .contaner .parent .child {
+    width: calc(100%/2);
+}
+
+#about .contaner .parent .child img {
+    width: 636px;
+    height: 456px;
+}
+
+#about .contaner .parent .child h3 {
+    color: #012970;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    margin: 10px 0;
+}
+
+#about .contaner .parent .child p {
+    color: #444444;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin: 10px 0;
+}
+
+#about .contaner .parent .child span {
+    color: #012970;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    margin: 10px 0;
+}
+
+#about .contaner .parent .child i {
+    font-size: 22px;
+    margin-right: 3px;
+    color: #4154f1;
+}
+
+#about .contaner .parent .child a {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+#about .contaner .parent .child li {
+    list-style: none;
+}
+
+#about .contaner .parent .child ul {
+    margin-right: 28em;
+    margin-left: -55px;
+}
+
+#about .contaner .parent .child a:active {
+    color: #4154f1;
+    border-bottom: 3px solid #4154f1;
+}
+
+/* end about */
+
+#one .contaner .parent {
+    display: flex;
+    margin-left: 70px;
+}
+
+#one .contaner .parent .child {
+    margin-top: 50px;
+    
+}
+
+#one .contaner .parent .child img {
+    width: 408px;
+    height: 439px;
+    margin-left: 80px;
+}
+
+#one .contaner .parent .child .tyt {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+
+#one .contaner .parent .child .tyt h4 {
+    color: #012970;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 5px;
+}
+
+#one .contaner .parent .child .tyt p {
+    color: #848484;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 10px;
+}
+
+#one .contaner .parent .child .tyt .icon i {
+    font-size: 38px;
+    color: #012970;
+    margin: 10px;
+}
+
+/* end one */
+
+#service .contaner .parent {
+    display: flex;
+    margin: 70px;
+}
+
+#service .contaner .parent .child .blue {
+    width: calc(100%/3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    width: 416px;
+    margin-left: 25px;
+    padding: 60px 30px;
+    transition: all .5s ease;
+}
+
+#service .contaner .parent .child .orange {
+    width: calc(100%/3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    width: 416px;
+    margin-left: 25px;
+    padding: 60px 30px;
+    transition: all .5s ease;
+}
+
+#service .contaner .parent .child .green {
+    width: calc(100%/3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    width: 416px;
+    margin-left: 25px;
+    padding: 60px 30px;
+    transition: all .5s ease;
+}
+
+#service .contaner .parent .child .red{
+    width: calc(100%/3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    width: 416px;
+    margin-left: 25px;
+    padding: 60px 30px;
+    transition: all .5s ease;
+}
+
+#service .contaner .parent .child .purple{
+    width: calc(100%/3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    width: 416px;
+    margin-left: 25px;
+    padding: 60px 30px;
+    transition: all .5s ease;
+}
+
+#service .contaner .parent .child .pink{
+    width: calc(100%/3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    width: 416px;
+    height: 397px;
+    margin-left: 25px;
+    padding: 60px 30px;
+    transition: all .5s ease;
+}
+
+
+#service .contaner .parent .child h3 {
+    color: #444444;
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: all .5s ease;
+}
+
+#service .contaner .parent .child h3:hover {
+    color: white;
+}
+
+#service .contaner .parent .child p {
+    color: #444444;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: all .5s ease;
+}
+
+#service .contaner .parent .child p:hover {
+    color: white;
+}
+
+#service .contaner .parent .child a {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    margin-left: 40%;
+    margin-bottom: 50px;
+    transition: all .5 ease;
+}
+
+#service .contaner .parent .child .blue a,
+#service .contaner .parent .child .blue i {
+    color: #2db6fa;
+}
+
+#service .contaner .parent .child .orange a,
+#service .contaner .parent .child .orange i {
+    color: #f68c09;
+}
+
+#service .contaner .parent .child .green a,
+#service .contaner .parent .child .green i {
+    color: #08da4e;
+}
+
+#service .contaner .parent .child .red a,
+#service .contaner .parent .child .red i {
+    color: #e9222c;
+}
+
+#service .contaner .parent .child .purple a,
+#service .contaner .parent .child .purple i {
+    color: #b50edf;
+}
+
+#service .contaner .parent .child .pink a,
+#service .contaner .parent .child .pink i {
+    color: #f51f9c;
+}
+
+#service .contaner .parent .child i {
+    font-size: 36px;
+    border-radius: 4px;
+    margin-left: 40%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#service .contaner .parent .child .blue i {
+    background-color: #dbf3fe;
+}
+
+#service .contaner .parent .child .orange i {
+    background: #fde3c4;
+}
+
+#service .contaner .parent .child .green i {
+    background: #cffddf;
+}
+
+#service .contaner .parent .child .red i {
+    background: #fef7f8;
+}
+
+#service .contaner .parent .child .purple i {
+    background: #f8e4fd;
+}
+
+#service .contaner .parent .child .pink i {
+    background: #feecf7;
+}
+
+#service .contaner .parent .child .blue:hover {
+    color: white;
+    background-color: #2db6fa;
+}
+
+#service .contaner .parent .child .orange:hover {
+    color: white;
+    background-color: #f68c09;
+}
+
+#service .contaner .parent .child .green:hover {
+    color: white;
+    background-color: #08da4e;
+}
+
+#service .contaner .parent .child .red:hover {
+    color: white;
+    background-color: #e9222c;
+}
+
+#service .contaner .parent .child .purple:hover {
+    color: white;
+    background-color: #b50edf;
+}
+
+#service .contaner .parent .child .pink:hover {
+    color: white;
+    background-color: #f51f9c; 
+}
+
+/* end service */
+
+#pric .contaner .parent {
+    display: flex;
+    margin-left: 70px;
+}
+
+#pric .contaner .parent .child {
+    width: calc(100%/4);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    margin-left: 25px;
+    width: 306px;
+    height: 590px;
+    margin-top: 30px;
+    transition: all .5s ease;
+}
+
+#pric .contaner .parent .child:hover{
+    transform: scale(1.1);
+}
+
+#pric .contaner .parent .child h3 {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 15px;
+}
+
+#pric .contaner .parent .child span {
+    color: #444444;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 33%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#pric .contaner .parent .child img {
+    width: 266px;
+    height: 187px;
+} 
+
+#pric .contaner .parent .child ul {
+    display: block;
+    list-style: none;
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+
+#pric .contaner .parent .child li {
+    text-decoration: none;
+    text-align: center;
+    color: #444444;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+#pric .contaner .parent .child .ut {
+    color: #cccccc;
+    text-decoration: line-through;
+}
+
+#pric .contaner .parent .child a {
+    border: 1px solid #012970;
+    border-radius: 50px;
+    padding: 8px 40px 10px 40px;
+    color: #012970;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    transition: all .5s ease;
+    margin-bottom: 5%;
+}
+
+#pric .contaner .parent .child a:hover {
+    background-color: #012970;
+    color: white;
+}
+
+/* end pric */
+
+#portfolio .contaner ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+#portfolio .contaner a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 25px;
+    color: black;
+    transition: all .3s ease;
+}
+
+#portfolio .contaner a:hover {
+    border: 1px solid #012970;
+    border-radius: 50px;
+    padding: 8px 20px 10px;
+    color: #012970;
+}
+
+#portfolio .contaner .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#portfolio .contaner {
+    margin-bottom: 70px;
+}
+
+#portfolio .contaner .parent .child {
+    width: calc(100%/3);
+    overflow: hidden;
+    height: 312px;
+    width: 416px;
+    margin: 10px;
+}
+
+#portfolio .contaner .parent .child img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s;
+}
+
+#portfolio .contaner .parent .child:hover img {
+    -ms-transform: scale(1.12);
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+/* end portfolio */
+
+#team .contaner .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+#team .contaner .parent .child {
+    width: calc(100%/4);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    width: 330px;
+    height: 480px;
+    margin-left: 25px;
+    margin-top: 30px;
+    transition: all .5s ease;
+}
+
+#team .contaner .parent .child:hover {
+    transform: scale(1.1);
+}
+
+#team .contaner .parent .child img {
+    width: 320px;
+    height: 306px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#team .contaner .parent .child h4 {
+    color: #012970;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#team .contaner .parent .child span {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 15px;
+    display: block;
+    justify-content: center;
+}
+
+#team .contaner .parent .child p {
+    color: #5e5e5e;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/* end team */
+
+#blog .contaner .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+}
+
+#blog .contaner .parent .child {
+    width: calc(100%/3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    width: 418px;
+    height: 514px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#blog .contaner .parent .child img {
+    width: 416px;
+    height: 312px;
+    margin-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#blog .contaner .parent .child span {
+    color: rgba(1, 41, 112, 0.6);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 15px;
+    padding-bottom: -10px;
+}
+
+#blog .contaner .parent .child h3 {
+    color: #012970;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 18px;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+#blog .contaner .parent .child h3:hover {
+    color: #4154f1;
+}
+
+#blog .contaner .parent .child a {
+    color: #4154f1;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+/* end blog */
+
+#contact .contaner .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50pox;
+}
+
+#contact .contaner .parent .child .parent1 {
+    display: flex;
+}
+
+#contact .contaner .parent .child .parent1 .child1 {
+    margin: 25px;
+    background-color: #fafbff;
+    padding: 30px;
+    width: 306px;
+    height: 201px;
+}
+
+#contact .contaner .parent .child .parent1 .child1 h3 {
+    color: #012970;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    margin: 20px 0 10px 0;
+}
+
+#contact .contaner .parent .child .parent1 .child1 p {
+    color: #444444;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+}
+
+#contact .contaner .parent .child .parent1 .child1 i {
+    color: #4154f1;
+    font-size: 38px;
+}
+
+#contact .contaner .parent .child .form .min {
+    display: block;
+    margin: 25px;
+}
+
+#contact .contaner .parent .child .form {
+    background-color: #fafbff;
+    padding-top: 10px;
+    margin-left: 15px;
+    width: 636px;
+}
+
+#contact .contaner .parent .child .form .min .name {
+    padding: 10px 15px;
+    margin-right: 15px;
+    width: 276px;
+    height: 42px;
+}
+
+#contact .contaner .parent .child .form .min .job {
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    width: 576px;
+    height: 42px;
+}
+
+#contact .contaner .parent .child .form .min .message {
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    width: 576px;
+    height: 151px;
+}
+
+#contact .contaner .parent .child .form .min button {
+    color: #fff;
+    background: #4154f1;
+    padding: 10px 30px;
+    border: 1px solid #4154f1;
+    border-radius: 4px;
+    text-align: center!important;
+    margin-left: 35%;
+    margin-bottom: 25px;
+}
+
+/* end contact */ 
+
+#news .contaner .parent{
+    padding: 50px 0;
+    background: #f6f9ff;
+    border-top: 1px solid #e1ecff;
+    margin-top: 70px;
+}
+
+#news .contaner .parent .child {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#news .contaner .parent .child h4 {
+    color: #012970;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    margin: 0 0 10px 0;
+}
+
+#news .contaner .parent .child p {
+    color: #444444;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 50px;
+}
+
+#news .contaner .parent .child .min form {
+    border: 1px solid #e1ecff;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 8px;
+    width: 636px;
+    height: 60px;
+    margin-left: 28%;
+}
+
+#news .contaner .parent .child .min .email {
+    width: 474px;
+    height: 37px;
+    color: #e1ecff;
+    border: #e1ecff;
+}
+
+#news .contaner .parent .child .min .btn {
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #4154f1;
+    border-radius: 5px;
+    background-color: #4154f1;
+    padding: 13px 30px;
+    margin-left: 5px;
+}
+
+/* end news */
+
+#footer .contaner .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://bootstrapmade.com/demo/templates/FlexStart/assets/img/footer-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 60px 0 30px;
+    height: 320px;
+    padding-right: 70px;
+}
+
+#footer .contaner .parent .child {
+    height: 156px;
+}
+
+#footer .contaner .parent .child .flex {
+    margin-left: 70px;
+    width: 550px;
+}
+
+#footer .contaner .parent .child .flex span {
+    color: #012970;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    margin-top: 3px;
+}
+
+#footer .contaner .parent .child .flex p {
+    color: #444444;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Nunito", sans-serif;
+    margin-top: 15px;
+}
+
+#footer .contaner .parent .child .flex i {
+    color: #5e5e5e;
+    font-size: 25px;
+    margin-top: 15px;
+    transition: all .0.3s ease;
+}
+
+#footer .contaner .parent .child .flex i:hover {
+    color: #012970;
+}
+
+#footer .contaner .parent .child h4 {
+    color: #012970;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    padding-bottom: 12px;
+    margin-left: 60px;
+}
+
+#footer .contaner .parent .child ul {
+    display: block;
+    list-style: none;
+    margin-left: -5px;
+}
+
+#footer .contaner .parent .child li {
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+#footer .contaner .parent .child a {
+    color: #012970;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 0 10px;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+#footer .contaner .parent .child a:hover {
+    color: #4154f1;
+}
+
+#footer .contaner .parent .child .child1 h4 {
+    color: #012970;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    margin-left: -5px;
+}
+
+#footer .contaner .parent .child .child1 p {
+    color: #444444;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 50px;
+}
+
+/* end footer */
